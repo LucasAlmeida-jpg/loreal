@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ul li{
+    list-style: none;
+    font-weight: 500;
+}
+.main{ 
+    background-color: #B28B33;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+p{
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+}
+.button {
+    background-color: #8D1E72;
+    border: none;
+    color: white;
+    padding: 6px 40px 6px 20px;
+    border-radius:50px;
+    position: relative;
+}
+.button::before {
+    content: '\2192';
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.girls-hug{
+    max-width: 656px;
+}
+
+
+
+
