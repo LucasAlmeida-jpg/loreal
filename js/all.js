@@ -26,10 +26,9 @@ createApp({
       ],
       items: [
         {
-          numbers: "assets/mask-boy.svg",
+          numbers: "assets/mask-boy.png",
           title: "Produtos",
-          image: "assets/Group527.png",
-          description: "Já pensou em aprender sobre criação de conteúdo <br> com um super time da <strong>L'Oreal</strong> Grande Público? <br/> <br/> Nosso programa exclusivo é projetado para <br> equipar você com as ferramentas e técnicas necessárias para se destacar no mundo digital e impulsionar resultados impactantes através de conteúdo envolvente.",
+          description: "Já pensou em aprender sobre criação de conteúdo com um super<br> time da <strong>L'Oreal</strong> Grande Público? <br/> <br/> Nosso programa exclusivo é projetado para equipar você com as ferramentas e técnicas necessárias para se destacar no mundo digital<br> e impulsionar resultados impactantes através de conteúdo envolvente.",
         },
       ],
       cards: [
@@ -57,43 +56,38 @@ createApp({
       itemsWork: [
         {
           image: "assets/Group544.png",
-          description: "Ser um criador de conteúdo com pelo menos 5 mil seguidores no Instagram, com postagens regulares e de uma das verticais abaixo: <br><br> <li><strong>Moda e Beleza</strong></li> <li><strong>Tecnologia e Games</strong></li> <li><strong>Esporte e Fitness</strong></li> <li><strong>Casa e Decoração</strong></li> "
+          description: "<strong>Educação de Ponta:</strong> Participe de aulas e sessões de treinamento virtuais com profissionais renomados no mercado de influência e marketing de conteúdo.<br><br><strong>Educação de Ponta:</strong> Participe de aulas e sessões de treinamento virtuais com profissionais renomados no mercado de influência e marketing de conteúdo.<br><br><strong>Reconhecimento:</strong> Seja uma das 15 pessoas escolhidas para uma graduação especial, com a oportunidade de receber prêmios por engajamento, criatividade e qualidade técnica dos seus conteúdos!"
         }
       ],
       itemsMiniCard: [
-        { content: 'Você precisará criar 2 Reels, 1 repost no TikTok e 5 Combos de Stories (3 telas cada).' },
-        { content: 'Inscrever-se através do site Creators.llc/AliExperts e não deixar nenhum campo em branco, eles serão necessários para a nossa validação.' },
-        { content: 'Ter disponibilidade para participar do programa e entregar conteúdos conforme cronograma de postagens.' },
-        { content: 'Caso você seja aprovado, é obrigatório o opt-in das suas redes sociais para analisarmos os resultados das postagens.' },
+        { content: "<h3>Inscrição</h3> Programa Exclusivo para funcionários da L'Oreal Grande Público - comece criando seu perfil." },
+        { content: '<h3>Imersão</h3> De julho a novembro, mergulhe em uma série de atividades educativas, desde a estratégia de conteúdo até as técnicas de edição e iluminação.' },
+        { content: '<h3>Desafios<br> de Criação</h3> Aplique o aprendizado em desafios práticos, criando conteúdos que serão avaliados por critérios de criatividade e engajamento.' },
+        { content: '<h3>Black Friday</h3> Use suas novas habilidades para maximizar as vendas e o engajamento durante a Black Friday e prepare-se para uma avaliação final em dezembro.' },
       ],
       tutors: [
         {
-          image: "assets/Group155.png",
+          image: "assets/creators-1.jpg",
           name: "@nome da influencer aqui",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem  nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
         {
-          image: "assets/Group156.png",
+          image: "assets/creators-2.jpg",
           name: "@nome da influencer aqui",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
         {
-          image: "assets/Group157.png",
+          image: "assets/creators-3.jpg",
           name: "@nome da influencer aqui",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
         {
-          image: "assets/Group155.png",
+          image: "assets/creators-4.jpg",
           name: "@nome da influencer aqui",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
         {
-          image: "assets/Group155.png",
-          name: "@nome da influencer aqui",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
-        },
-        {
-          image: "assets/Group155.png",
+          image: "assets/creators-3.jpg",
           name: "@nome da influencer aqui",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },

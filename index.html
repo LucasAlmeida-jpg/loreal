@@ -30,8 +30,7 @@
             <nav class="navbar navbar-expand-lg menu">
                 <div class="container d-flex justify-content-between">
                     <a class="navbar-brand" href="https://creators.llc/" target="_blank">
-                        <img class="d-none d-md-block" src="./assets/logo_beauty.svg" alt="creators logo">
-                        <img class="d-md-none d-block" src="./assets/logo_beauty.svg" alt="creators logo">
+                        <img src="./assets/logo_beauty.svg" alt="creators logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -41,13 +40,13 @@
                     <div class="collapse navbar-collapse" id="navbarMenu">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#como-participar">Por que participar?</a>
+                                <a class="nav-link" href="#porque-participar">Por que participar?</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#como-funciona">Como Funciona</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Mentores</a>
+                                <a class="nav-link" href="#mentores">Mentores</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a class="nav-link" href="#programacao">Programação</a>
@@ -68,7 +67,7 @@
                 <div class="col-md-6 info">
                     <div>
                         <h1>Transforme sua <br> paixão por beleza em influência digital!</h1>
-                        <p>Comece sua jornada para se tornar <br> uma pessoa influenciadora de <br> destaque no universo da beleza!
+                        <p class="mt-3 mb-4">Comece sua jornada para se tornar <br> uma pessoa influenciadora de <br> destaque no universo da beleza!
                         </p>
                         <button class="btn">
                             Inscreva-se</span>
@@ -76,12 +75,12 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="people" src="assets/cinco-mulheres-africanas-e-caucasianas-bonitas-em-jeans-pretos-de-tops-marrons-olham-para-a-camera-em-fundo-bege 1.svg" alt="">
+                    <img class="people" src="assets/cinco-mulheres-africanas-e-caucasianas-bonitas-em-jeans-pretos-de-tops-marrons-olham-para-a-camera-em-fundo-bege.png" alt="">
                 </div>
             </div>
         </section>
         <main class="margin-section">
-            <div class="container" id="como-funciona">
+            <div class="container">
                 <div class="card position-relative" v-for="(item, index) in items" :key="index">
                     <div class="row d-flex align-items-center">
                         <div class="col-md-6 img-star d-flex align-items-center justify-content-center"><img
@@ -95,30 +94,31 @@
                     </div>
                 </div>
 
-                <div class="card margin-section" id="como-participar" v-for="(item, index) in itemsWork" :key="index">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-6 img-star d-flex align-items-center justify-content-center mask-boy"><img
-                                :src="item.image" alt=""></div>
+                <div class="card margin-section" id="porque-participar" v-for="(item, index) in itemsWork" :key="index">
+                    <div class="row">
                         <div class="col-md-6 info">
-                            <p class="item-description" v-html="item.description"></p>
+                            <h2 class="item-title">Por que participar?</h2>
+                            <p class="tiny-item-description" v-html="item.description"></p>
+                        </div>
+                        <div class="col-md-6 img-star d-flex justify-content-end">
+                            <img src="./assets/beuty-creator.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" id="como-funciona">
                 <h2 class="margin-section">Como funciona?</h2>
                 <div class="row">
                     <div v-for="(item, index) in itemsMiniCard" :key="index" class="col-md">
-                        <div class="mini-card d-flex align-items-center justify-content-center">
-                            <span class="me-4"><img src="assets/losango.svg" alt=""></span>
+                        <div class="mini-card">
                             <p v-html="item.content"></p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" id="mentores">
                 <h2 class="margin-section">Aprenda com especialistas</h2>
-                <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true}'>
                     <div class="carousel-cell" v-for="(tutor, index) in tutors" :key="index">
                         <div>
                             <img :src="tutor.image" alt="">
@@ -157,14 +157,13 @@
                 <div class="row d-flex align-items-center justify-content-between">
                     <div class="col-md-6">
                         <div class="mb-3">
-                            <img class="footer-img" src="assets/AliExpress02.png" alt="Logo">
+                            <img class="footer-img" src="assets/loreal_logo.svg" alt="Logo">
                         </div>
                         <div>
                             <ul class="list-unstyled d-flex gap-4">
-                                <li><a href="#como-funciona">Como funciona</a></li>
-                                <li><a href="#como-participar">Como participar</a></li>
-                                <!-- <li><a href="#">Mentores</a></li> -->
-                                <li><a href="#programacao">Programação</a></li>
+                                <li><a href="#porque-participar">Por que participar?</a></li>
+                                <li><a href="#como-funciona">Como Funciona</a></li>
+                                <li><a href="#mentores">Mentores</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                             </ul>
                         </div>
