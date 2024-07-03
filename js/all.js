@@ -7,28 +7,26 @@ createApp({
       activeIndex: null,
       creatorsForm: false,
       accordionItems: [
-        { title: 'Quantos produtos serão enviados? Precisa devolver?',
-          content: 'Será enviado pelo menos 1 produto mensal, não é necessária a devolução.' },
-        { title: 'Como funciona o comissionamento?',
-          content: 'Saiba todas as regras de comissionamento neste link: <a href="https://learning.br.aliexpress.com/course/learn?id=2623&type=video&spm=courserlist_courses.4.0">Programa de Afiliados do AliExpress</a>' },
-        { title: 'Qual o critério de avaliação dos conteúdos para a bonificação?',
-          content: 'Criatividade, performance, engajamento, entrega completa de acordo com o briefing, agilidade, retorno em vendas, entre outros.' },
-        { title: 'Haverá um cronograma de postagem pré-definido?',
-          content: 'Sim, ela será compartilhada com os criadores a cada briefing enviado.' },
-        { title: 'A participação nas aulas é obrigatória? Será calculada a frequência?',
-          content: 'A participação é recomendada, mas não obrigatória. As aulas também ficarão gravadas para o consumo posterior, caso você não consiga assistir ao vivo.' },
-        { title: 'O pagamento está vinculado à performance apenas ou tem um valor fixo? Como é feito o pagamento?',
-          content: 'O pagamento de comissionamento é vinculado à performance. O pagamento dos desafios tem um valor fixo que será enviado junto ao briefing. O pagamento é realizado através de invoice internacional e você recebe na conta indicada na plataforma da Creators.llc, na área de dados bancários.' },
-        { title: 'Vou precisar ter exclusividade com a AliExpress ou posso indicar produtos da concorrência?',
-          content: 'Não há exclusividade, mas quanto mais produtos da mesma plataforma você indicar, melhores são as suas chances de monetização.' },
-        { title: 'Qual a duração do projeto?',
-          content: 'Não há previsão de encerramento, enquanto você entregar conteúdos no programa, o comissionamento estará ativo.' },
+        { title: 'Qual pessoa pode participar desse programa?',
+          content: 'Não! Apenas funcionários da L’oreal Grande Público.' },
+        { title: 'As aulas e as atividades extras aconteceram fora do horário de trabalho?',
+          content: 'Não, todos o conteúdo e qualquer ação necessária, será realizada dentro do horário habitual de trabalho.' },
+        { title: 'Promotores contratados por agência podem participar?',
+          content: 'Não. O programa é para quem já é contratado L’Oreal ' },
+        { title: 'Como faço para me inscrever?',
+          content: 'Acesso formulário, faça sua inscrição de 12 a 27 de Julho de 2024.' },
+        { title: 'Quantos pessoas serão selecionadas?',
+          content: 'Serão 15 selecionados nessa fase do programa. Boa sorte!' },
+        { title: 'Quais serão os critérios de seleção?',
+          content: 'Ter um perfil ativo acima de 500 seguidores, ter publicação média de 2 conteúdos mensais, criatividade e qualidade técnica dos conteúdos.' },
+        { title: 'Quais serão os benefícios de me tornar um/a Beauty Creator?',
+          content: 'Receber reconhecimento dentro da L’oreal.<br> Ganhar autoridade e presença nas redes sociais. Receber prêmios a cada missão cumprida dentro do programa.' },
       ],
       items: [
         {
           numbers: "assets/mask-boy.png",
           title: "Produtos",
-          description: "Já pensou em aprender sobre criação de conteúdo com um super<br> time da <strong>L'Oreal</strong> Grande Público? <br/> <br/> Nosso programa exclusivo é projetado para equipar você com as ferramentas e técnicas necessárias para se destacar no mundo digital<br> e impulsionar resultados impactantes através de conteúdo envolvente.",
+          description: "Já pensou em aprender sobre criação de conteúdo com um super<br class='d-none d-md-block'> time da <strong>L'Oreal</strong> Grande Público? <br/> <br/> Nosso programa exclusivo é projetado para equipar você com as ferramentas e técnicas necessárias para se destacar no mundo digital<br class='d-none d-md-block'> e impulsionar resultados impactantes através de conteúdo envolvente.",
         },
       ],
       cards: [
@@ -60,7 +58,7 @@ createApp({
         }
       ],
       itemsMiniCard: [
-        { content: "<h3>Inscrição</h3> Programa Exclusivo para funcionários da L'Oreal Grande Público - comece criando seu perfil." },
+        { content: "<h3>Inscrição</h3> Programa Exclusivo para funcionários da L'Oreal Grande Público - comece fazendo sua <a data-bs-toggle='modal' data-bs-target='#exampleModal'><strong>inscrição</strong></a>." },
         { content: '<h3>Imersão</h3> De julho a novembro, mergulhe em uma série de atividades educativas, desde a estratégia de conteúdo até as técnicas de edição e iluminação.' },
         { content: '<h3>Desafios<br> de Criação</h3> Aplique o aprendizado em desafios práticos, criando conteúdos que serão avaliados por critérios de criatividade e engajamento.' },
         { content: '<h3>Black Friday</h3> Use suas novas habilidades para maximizar as vendas e o engajamento durante a Black Friday e prepare-se para uma avaliação final em dezembro.' },
@@ -68,27 +66,22 @@ createApp({
       tutors: [
         {
           image: "assets/creators-1.jpg",
-          name: "@nome da influencer aqui",
+          name: "Gabrielle Coutinho",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem  nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
         {
           image: "assets/creators-2.jpg",
-          name: "@nome da influencer aqui",
+          name: "Leticia Imai",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
         {
           image: "assets/creators-3.jpg",
-          name: "@nome da influencer aqui",
+          name: "Joicy Eleiny",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
         {
           image: "assets/creators-4.jpg",
-          name: "@nome da influencer aqui",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
-        },
-        {
-          image: "assets/creators-3.jpg",
-          name: "@nome da influencer aqui",
+          name: "José Marinho",
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
         },
       ],
