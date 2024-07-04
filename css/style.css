@@ -738,4 +738,8 @@ section .arrow {
       opacity: 0 !important;
       width: 0 !important;
     }
+
+    .creators-logo img{
+      display: none;
+    }
   }
