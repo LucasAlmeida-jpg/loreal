@@ -54,7 +54,7 @@ createApp({
       itemsWork: [
         {
           image: "assets/Group544.png",
-          description: "<strong>Educação de Ponta:</strong> Participe de aulas e sessões de treinamento virtuais com profissionais renomados no mercado de influência e marketing de conteúdo.<br><br><strong>Educação de Ponta:</strong> Participe de aulas e sessões de treinamento virtuais com profissionais renomados no mercado de influência e marketing de conteúdo.<br><br><strong>Reconhecimento:</strong> Seja uma das 15 pessoas escolhidas para uma graduação especial, com a oportunidade de receber prêmios por engajamento, criatividade e qualidade técnica dos seus conteúdos!"
+          description: "<strong>Educação de Ponta:</strong> Participe de aulas e sessões de treinamento virtuais com profissionais renomados no mercado de influência e marketing de conteúdo.<br><br><strong>Crescimento Profissiona: </strong> Aumente seu alcance digital e refine suas habilidades em contar histórias através das telas, produção de conteúdo e estratégias de engajamento.<br><br><strong>Reconhecimento:</strong> Seja uma das 15 pessoas escolhidas para uma graduação especial, com a oportunidade de receber prêmios por engajamento, criatividade e qualidade técnica dos seus conteúdos!"
         }
       ],
       itemsMiniCard: [
