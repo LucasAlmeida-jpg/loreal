@@ -26,7 +26,7 @@ createApp({
         {
           numbers: "assets/mask-boy.png",
           title: "Produtos",
-          description: "Já pensou em aprender sobre criação de conteúdo com um super<br class='d-none d-md-block'> time da <strong>L'Oreal</strong> Grande Público? <br/> <br/> Nosso programa exclusivo é projetado para equipar você com as ferramentas e técnicas necessárias para se destacar no mundo digital<br class='d-none d-md-block'> e impulsionar resultados impactantes através de conteúdo envolvente.",
+          description: "Já pensou em aprender sobre criação de conteúdo com um super time da <strong>L'Oreal</strong> Grande Público? <br/> <br/> Nosso programa exclusivo é projetado para equipar você com as ferramentas e técnicas necessárias para se destacar no mundo digital e impulsionar resultados impactantes através de conteúdo envolvente.",
         },
       ],
       cards: [
