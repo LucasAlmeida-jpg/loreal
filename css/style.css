@@ -401,6 +401,10 @@ section .arrow {
     -webkit-text-stroke: thin;
 }
 
+.spacement-desc p{
+  font-family: 'Trenda regular', sans-serif;
+}
+
 .spacement-name {
     padding: 30px 0px 0px 30px;
 }
