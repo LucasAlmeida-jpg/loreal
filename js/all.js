@@ -54,7 +54,7 @@ createApp({
       itemsWork: [
         {
           image: "assets/Group544.png",
-          description: "<strong>Educação de Ponta:</strong> Participe de aulas e sessões de treinamento virtuais com profissionais renomados no mercado de influência e marketing de conteúdo.<br><br><strong>Crescimento Profissiona: </strong> Aumente seu alcance digital e refine suas habilidades em contar histórias através das telas, produção de conteúdo e estratégias de engajamento.<br><br><strong>Reconhecimento:</strong> Seja uma das 15 pessoas escolhidas para uma graduação especial, com a oportunidade de receber prêmios por engajamento, criatividade e qualidade técnica dos seus conteúdos!"
+          description: "<strong>Educação de Ponta:</strong> Já pensou em aprender com os melhores do mercado sem sair de casa? Participe das aulas e treinamentos virtuais com profissionais super renomados em influência e marketing de conteúdo. É a sua chance de receber dicas valiosas e técnicas diretamente dos especialistas!<br><br><strong>Crescimento Profissional: </strong> Quer bombar nas redes sociais e mostrar seu talento? Aprimore suas habilidades em contar histórias, criar conteúdos incríveis e conquistar seu público com estratégias de engajamento. Você vai aprender a se destacar no mundo digital!<br><br><strong>Reconhecimento:</strong> Se você é criativo e adora criar conteúdo, essa é a sua chance! Seja uma das 15 pessoas selecionadas para uma graduação especial e ainda concorra a prêmios incríveis por engajamento, criatividade e qualidade. Mostre seu potencial e receba o reconhecimento que você merece!"
         }
       ],
       itemsMiniCard: [
@@ -65,24 +65,36 @@ createApp({
       ],
       tutors: [
         {
-          image: "assets/creators-1.jpg",
-          name: "Gabrielle Coutinho",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem  nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
+          image: "assets/creators-2.jpg",
+          name: "Laryssa Santos",
+          url: "https://www.instagram.com/mulheresceo",
+          perfil: "- @mulheresceo",
+          aula: "Aula Criação de Conteúdo",
+          description: "Mulheres CEO é uma plataforma dedicada a apoiar e conectar mulheres em posições de liderança. Com uma comunidade vibrante e em crescimento, oferecemos recursos, networking e oportunidades de desenvolvimento para mulheres que estão moldando o futuro dos negócios. Nossa missão é empoderar líderes femininas, promovendo a diversidade e a inclusão no ambiente corporativo. Através de eventos, mentorias e conteúdos exclusivos, inspiramos e capacitamos mulheres a alcançar seus objetivos profissionais e pessoais."
         },
         {
-          image: "assets/creators-2.jpg",
-          name: "Leticia Imai",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
+          image: "assets/creators-1.jpg",
+          name: "Bruno e Hellen",
+          url: "https://www.instagram.com/midtrack.co",
+          perfil: "- @midtrack.co",
+          aula: "Aula Edição Ninja",
+          description: "A Midtrack produz conteúdo audiovisual e campanhas personalizadas há 10 anos, conectando marcas ao público com alta performance e identidade única. Com mais de 50 mil criadores e filmmakers, nossa comunidade cresce e aprende junta. Além de filmes e campanhas, oferecemos treinamentos para empresas e profissionais que querem explorar o futuro da criação de conteúdo."
         },
         {
           image: "assets/creators-3.jpg",
-          name: "Joicy Eleiny",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
+          name: "Leticia Imai",
+          url: "https://www.instagram.com/leticia.imai",
+          perfil: "- @leticia.imai",
+          aula: "Aula Inspiração & Criatividade",
+          description: "Criadora de conteúdo e empreendedora digital. Inspira  uma comunidade com +125mil membros que querem desenvolver seus processos criativos, postar com frequência nas redes sociais e monetizar seus projetos autorais."
         },
         {
           image: "assets/creators-4.jpg",
-          name: "José Marinho",
-          description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate nulla voluptatem natus error, unde obcaecati ad eveniet id blanditiis pariatur nostrum tenetur libero inventore consequatur aut necessitatibus assumenda fugit!"
+          name: "Ju Santos",
+          url: "https://www.instagram.com/@jusantoscs",
+          perfil: "- @jusantoscs",
+          aula: "Aula Engajamento e Conversão",
+          description: "Juh Santos é especialista em criar Stories que engajam no Instagram. Ela ensina como transformar seu perfil e ganhar dinheiro com conteúdos atrativos e envolventes. Aprenda com Juh e leve suas habilidades no Instagram a um novo nível, garantindo mais engajamento e oportunidades de monetização."
         },
       ],
       formData: {
