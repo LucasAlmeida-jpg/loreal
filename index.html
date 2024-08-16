@@ -2,246 +2,274 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:url" content="https://creators.llc/lorealbeautycreators/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://creators.llc/lorealbeautycreators/">
     <meta property="og:title" content="Beauty Creator | L'oreal Grande Público">
     <meta property="og:image" content="https://creators.llc/lorealbeautycreators/assets/compartilhar.png">
     <meta property="og:description" content="Transforme sua paixão por beleza em potência criativa! Inscreva-se">
     <meta property="og:type" content="website">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="shortcut icon" href="https://creators.llc/favicon.png">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://creators.llc/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-  <title>Creators Beauty</title>
+    <title>Creators Beauty</title>
 </head>
 
 <body>
-  <div id="app">
-    <header>
-      <nav class="navbar navbar-expand-lg menu">
-        <div class="container d-flex justify-content-between">
-          <a class="navbar-brand" href="https://creators.llc/" target="_blank">
-            <img src="./assets/logo_beauty.svg" alt="creators logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <div id="app">
+        <header>
+            <nav class="navbar navbar-expand-lg menu">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand" href="https://creators.llc/" target="_blank">
+                        <img src="./assets/logo_beauty.svg" alt="creators logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-          <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#porque-participar">Por que participar?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#como-funciona">Como Funciona</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#mentores">Mentores</a>
-              </li>
-              <!-- <li class="nav-item">
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#porque-participar">Por que participar?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#como-funciona">Como Funciona</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mentores">Mentores</a>
+                            </li>
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#programacao">Programação</a>
                             </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#faq">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-primary justify-content-flexend button-mobile"
-                  data-bs-toggle="modal" data-bs-target="#exampleModal">Inscreva-se</button>
-              </li>
-            </ul>
-          </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-primary justify-content-flexend button-mobile"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">Inscreva-se</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-container">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./assets/logo_beauty.svg" alt="creators logo">
+                                </div>
+                                <div class="form">
+                                    <div class="container" id="ff-compose"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn-form" data-bs-dismiss="modal">Voltar para a
+                                        Home</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="main-section">
+            <div class="row container">
+                <div class="col-md-6 info">
+                    <div>
+                        <h1 class="mt-4 mt-md-auto">Transforme sua <br> paixão por beleza<br> em potência criativa!</h1>
+                        <p class="mt-3 mb-4">Comece sua jornada para se tornar <br> uma pessoa influenciadora de <br>
+                            destaque no
+                            universo da beleza!
+                        </p>
+                        <div class="d-flex">
+                            <button type="button" class="btn btn-primary justify-content-flexend button-mobile"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">Inscreva-se</button>
+                            <!-- <img src="assets/sticker.svg" alt="PROGRAMA EXCLUSIVO PARA FUNCIONÁRIOS DA L'OREAL GRANDE PÚBLICO"> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="people"
+                        src="assets/cinco-mulheres-africanas-e-caucasianas-bonitas-em-jeans-pretos-de-tops-marrons-olham-para-a-camera-em-fundo-bege.png"
+                        alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="marquee">
+            <div class="marquee-text">
+                Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público. - Atenção! Programa Exclusivo para
+                funcionário L'Oréal Grande Público. Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público.
+                -
+                Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público. Atenção! Programa Exclusivo para
+                funcionário L'Oréal Grande Público. - Atenção! Programa Exclusivo para funcionário L'Oréal Grande
+                Público.
+                - Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público.
+            </div>
         </div>
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-container">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                </div>
-                <div class="modal-body">
-                  <img src="./assets/logo_beauty.svg" alt="creators logo">
-                </div>
-                <div class="form">
-                  <div class="container" id="ff-compose"></div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn-form" data-bs-dismiss="modal">Voltar para a Home</button>
+        <div>
+            <div v-if="isBlocked" class="modal show" style="display: block;" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <img class="cadeado" src="./assets/cadeado-1.png" alt="">
+                      <h5 class="modal-title">Acesso restrito! Para acessar, insira o código!</h5>
+                    </div>
+                    <div class="modal-body">
+                      <input v-model="inputCode" type="password" class="form-control" placeholder="Coloque o código!" />
+                      <p v-if="errorMessage" class="text-danger">{{ errorMessage }}</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" @click="verifyCode">Entrar</button>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
-      </nav>
-    </header>
-    <section class="main-section">
-      <div class="row container">
-        <div class="col-md-6 info">
-          <div>
-            <h1 class="mt-4 mt-md-auto">Transforme sua <br> paixão por beleza<br> em potência criativa!</h1>
-            <p class="mt-3 mb-4">Comece sua jornada para se tornar <br> uma pessoa influenciadora de <br> destaque no
-              universo da beleza!
-            </p>
-            <div class="d-flex">
-              <button type="button" class="btn btn-primary justify-content-flexend button-mobile" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">Inscreva-se</button>
-              <!-- <img src="assets/sticker.svg" alt="PROGRAMA EXCLUSIVO PARA FUNCIONÁRIOS DA L'OREAL GRANDE PÚBLICO"> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img class="people"
-            src="assets/cinco-mulheres-africanas-e-caucasianas-bonitas-em-jeans-pretos-de-tops-marrons-olham-para-a-camera-em-fundo-bege.png"
-            alt="">
-        </div>
-      </div>
-    </section>
 
-    <div class="marquee">
-      <div class="marquee-text">
-        Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público. - Atenção! Programa Exclusivo para
-        funcionário L'Oréal Grande Público. Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público. -
-        Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público. Atenção! Programa Exclusivo para
-        funcionário L'Oréal Grande Público. - Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público.
-        - Atenção! Programa Exclusivo para funcionário L'Oréal Grande Público. 
-      </div>
+        <main class="margin-section">
+            <div class="container">
+                <div class="card position-relative" v-for="(item, index) in items" :key="index">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6 img-star d-md-flex align-items-md-center justify-md-content-center"><img
+                                :src="item.image" alt="">
+                        </div>
+                        <div class="col-md-7 info">
+                            <h2 class="item-title"><span><img :src="item.numbers" class="mask-boy" alt="face care guy">
+                            </h2>
+                            <p class="item-description" v-html="item.description"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card margin-section" id="porque-participar" v-for="(item, index) in itemsWork" :key="index">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 info">
+                            <h2 class="item-title">Por que participar?</h2>
+                            <p class="tiny-item-description" v-html="item.description"></p>
+                        </div>
+                        <div class="col-md-6 d-md-flex justify-content-md-end">
+                            <img src="./assets/beuty-creator.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="como-funciona">
+                <h2 class="margin-section">Como funciona?</h2>
+                <div class="row">
+                    <div v-for="(item, index) in itemsMiniCard" :key="index" class="col-md">
+                        <div class="mini-card">
+                            <p v-html="item.content"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="mentores">
+                <h2 class="margin-section">Aprenda com especialistas</h2>
+                <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true}'>
+                    <div class="carousel-cell" v-for="(tutor, index) in tutors" :key="index">
+                        <div>
+                            <img :src="tutor.image" alt="">
+                        </div>
+                        <div class="spacement-name">
+                            <p>{{tutor.name}} <a href="{{tutor.url}}">{{tutor.perfil}}</a></p>
+
+                        </div>
+                        <hr>
+                        <div class="spacement-desc">
+                            <p>{{tutor.aula}}</p>
+                            {{tutor.description}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="faq">
+                <h2 class="margin-section">FAQ</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div v-for="(item, index) in accordionItems" :key="index" class="accordion-item">
+                                <div @click="toggleAccordion(index)" class="accordion-header">
+                                    {{ item.title }}
+                                    <span :class="{ 'rotate-arrow': activeIndex === index }">&#9660;</span>
+                                </div>
+                                <div v-if="activeIndex === index" class="accordion-content" v-html="item.content"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="margin-section"></div>
+
+        <footer class="text-dark">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <img class="footer-img" src="assets/loreal_logo.svg" alt="Logo">
+                        </div>
+                        <div>
+                            <ul class="list-unstyled d-flex gap-md-4 gap-2">
+                                <li><a href="#porque-participar">Por que participar?</a></li>
+                                <li><a href="#como-funciona">Como Funciona</a></li>
+                                <li><a href="#mentores">Mentores</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-md-end creators-logo">
+                        <img src="./assets/black.svg" alt="">
+                        <p class="mt-md-3 email">Fale conosco | <a
+                                href="mailto:hello@creators.llc">hello@creators.llc</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-
-    <main class="margin-section">
-      <div class="container">
-        <div class="card position-relative" v-for="(item, index) in items" :key="index">
-          <div class="row d-flex align-items-center">
-            <div class="col-md-6 img-star d-md-flex align-items-md-center justify-md-content-center"><img
-                :src="item.image" alt="">
-            </div>
-            <div class="col-md-7 info">
-              <h2 class="item-title"><span><img :src="item.numbers" class="mask-boy" alt="face care guy">
-              </h2>
-              <p class="item-description" v-html="item.description"></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card margin-section" id="porque-participar" v-for="(item, index) in itemsWork" :key="index">
-          <div class="row align-items-center">
-            <div class="col-md-6 info">
-              <h2 class="item-title">Por que participar?</h2>
-              <p class="tiny-item-description" v-html="item.description"></p>
-            </div>
-            <div class="col-md-6 d-md-flex justify-content-md-end">
-              <img src="./assets/beuty-creator.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container" id="como-funciona">
-        <h2 class="margin-section">Como funciona?</h2>
-        <div class="row">
-          <div v-for="(item, index) in itemsMiniCard" :key="index" class="col-md">
-            <div class="mini-card">
-              <p v-html="item.content"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container" id="mentores">
-        <h2 class="margin-section">Aprenda com especialistas</h2>
-        <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true}'>
-          <div class="carousel-cell" v-for="(tutor, index) in tutors" :key="index">
-            <div>
-              <img :src="tutor.image" alt="">
-            </div>
-            <div class="spacement-name">
-              <p>{{tutor.name}} <a href="{{tutor.url}}">{{tutor.perfil}}</a></p>
-              
-            </div>
-            <hr>
-            <div class="spacement-desc">
-                <p>{{tutor.aula}}</p>
-                {{tutor.description}}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container" id="faq">
-        <h2 class="margin-section">FAQ</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div v-for="(item, index) in accordionItems" :key="index" class="accordion-item">
-                <div @click="toggleAccordion(index)" class="accordion-header">
-                  {{ item.title }}
-                  <span :class="{ 'rotate-arrow': activeIndex === index }">&#9660;</span>
-                </div>
-                <div v-if="activeIndex === index" class="accordion-content" v-html="item.content"></div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <div class="margin-section"></div>
-    <footer class="text-dark">
-      <div class="container">
-        <div class="row d-flex align-items-center justify-content-between">
-          <div class="col-md-6">
-            <div class="mb-3">
-              <img class="footer-img" src="assets/loreal_logo.svg" alt="Logo">
-            </div>
-            <div>
-              <ul class="list-unstyled d-flex gap-md-4 gap-2">
-                <li><a href="#porque-participar">Por que participar?</a></li>
-                <li><a href="#como-funciona">Como Funciona</a></li>
-                <li><a href="#mentores">Mentores</a></li>
-                <li><a href="#faq">FAQ</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 text-md-end creators-logo">
-            <img src="./assets/black.svg" alt="">
-            <p class="mt-md-3 email">Fale conosco | <a href="mailto:hello@creators.llc">hello@creators.llc</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-  </div>
-  <script src="js/all.js"></script>
-  <!-- Google Analytics -->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-90265209-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <!-- Google Tag Manager -->
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-58WRXZQ');
-  </script>
-  <script async defer
-    src="https://formfacade.com/include/109343391720390960505/form/1FAIpQLSevqxJvkYyuPS6BbyqopNCgzc_gyBw5nH6pNUAsMrIRYB07sQ/bootstrap.js?div=ff-compose"></script>
+    </div>
+    <script src="js/all.js"></script>
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-90265209-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-58WRXZQ');
+    </script>
+    <script async defer
+        src="https://formfacade.com/include/109343391720390960505/form/1FAIpQLSevqxJvkYyuPS6BbyqopNCgzc_gyBw5nH6pNUAsMrIRYB07sQ/bootstrap.js?div=ff-compose"></script>
 </body>
 
 </html>

@@ -261,7 +261,9 @@ section .info {
     align-items: center;
     justify-content: center;
 }
-
+.cadeado{
+  width: 40px;
+}
 section .arrow {
     width: 16px;
 }

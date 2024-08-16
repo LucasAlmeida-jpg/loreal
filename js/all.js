@@ -4,6 +4,7 @@ const isValidInput = (char) => /\d/.test(char);
 createApp({
   data() {
     return {
+      showModal: false,
       activeIndex: null,
       creatorsForm: false,
       accordionItems: [
@@ -130,14 +131,31 @@ createApp({
         { name: "Moda", id: 323 },
         { name: "Tecnologia", id: 368 },
     ],    
+    isBlocked: true, 
+    inputCode: '',
+    correctCode: '',
+    errorMessage: '',
     }
   },
- 
+
+  mounted() {
+    fetch('/auth.json')
+    .then(response => response.json())
+    .then(data => {
+      this.correctCode = data.code;
+    })
+    .catch(error => {
+      console.error('Erro ao carregar o código:', error);
+    });
+  },
+  
   methods: {
     toggleAccordion(index) {
       this.activeIndex = this.activeIndex === index ? null : index;
     },
-
+    closeModal() {
+      this.showModal = false;
+    },
     formatTelefone() {
       this.formData.phone = this.formData.phone.replace(/\D/g, ''); 
       let phoneNumber = this.formData.phone;
@@ -152,6 +170,13 @@ createApp({
     
       if (phoneNumber.length > 7) {
         this.formData.phone += `-${phoneNumber.substring(7, 11)}`;
+      }
+    },
+    verifyCode() {
+      if (this.inputCode === this.correctCode) {
+        this.isBlocked = false;  // Desbloqueia a tela
+      } else {
+        this.errorMessage = 'Senha incorreta. Tente novamente.';
       }
     },
 
