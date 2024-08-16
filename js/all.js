@@ -1,6 +1,5 @@
 const { createApp } = Vue
 const isValidInput = (char) => /\d/.test(char);
-
 createApp({
   data() {
     return {
@@ -139,7 +138,7 @@ createApp({
   },
 
   mounted() {
-    fetch('/auth.json')
+    fetch('auth.json')
     .then(response => response.json())
     .then(data => {
       this.correctCode = data.code;
@@ -148,7 +147,7 @@ createApp({
       console.error('Erro ao carregar o código:', error);
     });
   },
-  
+
   methods: {
     toggleAccordion(index) {
       this.activeIndex = this.activeIndex === index ? null : index;
