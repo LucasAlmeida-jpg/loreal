@@ -138,14 +138,20 @@ createApp({
   },
 
   mounted() {
-    fetch('auth.json')
-    .then(response => response.json())
-    .then(data => {
-      this.correctCode = data.code;
-    })
-    .catch(error => {
-      console.error('Erro ao carregar o código:', error);
-    });
+     const isAuthenticated = localStorage.getItem('isAuthenticated');
+     if (isAuthenticated) {
+       this.isBlocked = false;
+     } else {
+       fetch('auth.json')
+         .then(response => response.json())
+         .then(data => {
+           this.correctCode = data.code;
+         })
+         .catch(error => {
+           console.error('Erro ao carregar o código:', error);
+           this.errorMessage = 'Erro ao carregar a configuração de autenticação. Por favor, tente novamente mais tarde.';
+         });
+     }
   },
 
   methods: {
@@ -171,9 +177,11 @@ createApp({
         this.formData.phone += `-${phoneNumber.substring(7, 11)}`;
       }
     },
+
     verifyCode() {
       if (this.inputCode === this.correctCode) {
-        this.isBlocked = false;  // Desbloqueia a tela
+        this.isBlocked = false;
+        localStorage.setItem('isAuthenticated', true);
       } else {
         this.errorMessage = 'Senha incorreta. Tente novamente.';
       }
