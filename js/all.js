@@ -137,22 +137,22 @@ createApp({
     }
   },
 
-  mounted() {
-     const isAuthenticated = localStorage.getItem('isAuthenticated');
-     if (isAuthenticated) {
-       this.isBlocked = false;
-     } else {
-       fetch('auth.json')
-         .then(response => response.json())
-         .then(data => {
-           this.correctCode = data.code;
-         })
-         .catch(error => {
-           console.error('Erro ao carregar o código:', error);
-           this.errorMessage = 'Erro ao carregar a configuração de autenticação. Por favor, tente novamente mais tarde.';
-         });
-     }
-  },
+  // mounted() {
+  //    const isAuthenticated = localStorage.getItem('isAuthenticated');
+  //    if (isAuthenticated) {
+  //      this.isBlocked = false;
+  //    } else {
+  //      fetch('auth.json')
+  //        .then(response => response.json())
+  //        .then(data => {
+  //          this.correctCode = data.code;
+  //        })
+  //        .catch(error => {
+  //          console.error('Erro ao carregar o código:', error);
+  //          this.errorMessage = 'Erro ao carregar a configuração de autenticação. Por favor, tente novamente mais tarde.';
+  //        });
+  //    }
+  // },
 
   methods: {
     toggleAccordion(index) {
