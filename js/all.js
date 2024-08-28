@@ -14,7 +14,7 @@ createApp({
         { title: 'Promotores contratados por agência podem participar?',
           content: 'Não. O programa é para quem já é contratado L’Oreal ' },
         { title: 'Como faço para me inscrever?',
-          content: 'Faça sua inscrição de 20 a 28 de Agosto de 2024.' },
+          content: 'Faça sua inscrição de 20 a 30 de Agosto de 2024.' },
         { title: 'Quantos pessoas serão selecionadas?',
           content: 'Serão 15 selecionados nessa fase do programa. Boa sorte!' },
         { title: 'Quais serão os critérios de seleção?',
