@@ -69,7 +69,7 @@ createApp({
           name: "Fernando Cavalcanti",
           url: "https://www.instagram.com/fernandocavalcanti",
           perfil: "@fernandocavalcanti",
-          aula: "Aula Marketing Digital",
+          aula: "Introdução ao mercado",
           description: "Especialista em marketing digital com mais de 10 anos de experiência, Fernando é fundador da Cavalcanti/Digital, onde lidera projetos de social marketing baseados em dados e criatividade. Com pós-graduação em Inovação e Estratégia pela ESPM-SP, já assinou campanhas de impacto para marcas como Microsoft, Warner Bros, Santander e BASF. É reconhecido pelo mercado pelos estudos de caso sobre Grow, Atento e Macbeth, combinando narrativa, design e dados para gerar resultados expressivos, além de ser educador digital para colaboradores de grandes marcas, como Coty, Wella Professionals etc."
         },
         {
@@ -97,11 +97,19 @@ createApp({
           description: "Head de Estratégia da YouPix, uma das maiores autoridades em influência e creator economy no Brasil, Alessandra tem mais de 10 anos de experiência em comunicação digital. Já liderou projetos estratégicos para marcas como Meta, Netflix, Google, Heinz, Nubank e TikTok. Especialista em cultura digital, branding e influência, atua na interseção entre marcas e criadores, desenvolvendo estratégias que colocam pessoas no centro da comunicação. É referência quando o assunto é como marcas podem construir relevância e comunidade na internet."
         },
         {
+          image: "assets/creators-2.jpg",
+          name: "Laryssa Santos",
+          url: "https://www.instagram.com/mulheresceo",
+          perfil: "- @mulheresceo",
+          aula: "Criação de conteúdo longo prazo",
+          description: "Mulheres CEO é uma plataforma dedicada a apoiar e conectar mulheres em posições de liderança. Com uma comunidade vibrante e em crescimento, oferecemos recursos, networking e oportunidades de desenvolvimento para mulheres que estão moldando o futuro dos negócios. Nossa missão é empoderar líderes femininas, promovendo a diversidade e a inclusão no ambiente corporativo. Através de eventos, mentorias e conteúdos exclusivos, inspiramos e capacitamos mulheres a alcançar seus objetivos profissionais e pessoais."
+        },
+        {
           image: "assets/tutores/BrunoHellen.jpg",
           name: "Bruno e Hellen (Midtrack)",
           url: "https://www.instagram.com/midtrack.co",
           perfil: "@midtrack.co",
-          aula: "Aula Produção Audiovisual",
+          aula: "Edição",
           description: "Fundadores da Midtrack, Bruno e Hellen transformaram a própria vida ao decidirem viver do audiovisual e, hoje, são referência em produção criativa e educação para criadores. Com mais de 500 marcas no portfólio, assinam projetos que vão de lançamentos multimilionários a documentários e campanhas. Hoje, dedicam-se a capacitar novos criadores com técnicas, estratégias e visão de futuro, sempre com foco em impacto real e autenticidade."
         },
         {
