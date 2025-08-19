@@ -120,14 +120,14 @@ createApp({
           aula: "Aula Marketing de Conteúdo",
           description: "Cofundador da Rock Content, maior empresa de marketing de conteúdo da América Latina, Vitor é referência global em marketing digital, educação e empreendedorismo. Reconhecido pela Forbes Under 30 e pela lista 100 Startups to Watch, tem mais de 15 anos de experiência impulsionando marcas através de estratégias de conteúdo escaláveis e focadas em performance. É mentor de startups, autor do livro 'Obrigado pelo Marketing' e um dos grandes nomes quando o assunto é inbound, branding e geração de autoridade no ambiente digital."
         },
-        {
-          image: "assets/tutores/RafaelRez.jpg",
-          name: "Rafael Rez",
-          url: "https://www.instagram.com/rafael.rez",
-          perfil: "@rafael.rez",
-          aula: "Aula Marketing Estratégico",
-          description: "Especialista em marketing estratégico, branding e funil de vendas, Rafael Rez é fundador da Web Estratégica e autor do best-seller Marketing de Conteúdo: A Moeda do Século XXI, uma das obras mais influentes sobre o tema no Brasil. Com mais de 20 anos de carreira, já capacitou milhares de profissionais e liderou projetos para empresas como Oracle, Sebrae, UOL, Cielo e várias startups. É uma das vozes mais respeitadas do marketing no país, com forte atuação como palestrante e professor em programas executivos."
-        },
+        // {
+        //   image: "assets/tutores/RafaelRez.jpg",
+        //   name: "Rafael Rez",
+        //   url: "https://www.instagram.com/rafael.rez",
+        //   perfil: "@rafael.rez",
+        //   aula: "Aula Marketing Estratégico",
+        //   description: "Especialista em marketing estratégico, branding e funil de vendas, Rafael Rez é fundador da Web Estratégica e autor do best-seller Marketing de Conteúdo: A Moeda do Século XXI, uma das obras mais influentes sobre o tema no Brasil. Com mais de 20 anos de carreira, já capacitou milhares de profissionais e liderou projetos para empresas como Oracle, Sebrae, UOL, Cielo e várias startups. É uma das vozes mais respeitadas do marketing no país, com forte atuação como palestrante e professor em programas executivos."
+        // },
         {
           image: "assets/tutores/Passa.jpg",
           name: "Ana Paula Passarelli",
