@@ -128,6 +128,7 @@ createApp({
         //   aula: "Aula Marketing Estratégico",
         //   description: "Especialista em marketing estratégico, branding e funil de vendas, Rafael Rez é fundador da Web Estratégica e autor do best-seller Marketing de Conteúdo: A Moeda do Século XXI, uma das obras mais influentes sobre o tema no Brasil. Com mais de 20 anos de carreira, já capacitou milhares de profissionais e liderou projetos para empresas como Oracle, Sebrae, UOL, Cielo e várias startups. É uma das vozes mais respeitadas do marketing no país, com forte atuação como palestrante e professor em programas executivos."
         // },
+        //test
         {
           image: "assets/tutores/Passa.jpg",
           name: "Ana Paula Passarelli",
