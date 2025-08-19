@@ -14,7 +14,7 @@ createApp({
         { title: 'Promotores contratados por agência podem participar?',
           content: 'Não. O programa é para quem já é contratado L’Oreal ' },
         { title: 'Como faço para me inscrever?',
-          content: 'Faça sua inscrição de 20 a 28 de Agosto de 2024.' },
+          content: 'Faça sua inscrição de 20 a 28 de Agosto de 2025.' },
         { title: 'Quantos pessoas serão selecionadas?',
           content: 'Serão 15 selecionados nessa fase do programa. Boa sorte!' },
         { title: 'Quais serão os critérios de seleção?',
@@ -65,37 +65,69 @@ createApp({
       ],
       tutors: [
         {
-          image: "assets/creators-2.jpg",
-          name: "Laryssa Santos",
-          url: "https://www.instagram.com/mulheresceo",
-          perfil: "- @mulheresceo",
-          aula: "Aula Criação de Conteúdo",
-          description: "Mulheres CEO é uma plataforma dedicada a apoiar e conectar mulheres em posições de liderança. Com uma comunidade vibrante e em crescimento, oferecemos recursos, networking e oportunidades de desenvolvimento para mulheres que estão moldando o futuro dos negócios. Nossa missão é empoderar líderes femininas, promovendo a diversidade e a inclusão no ambiente corporativo. Através de eventos, mentorias e conteúdos exclusivos, inspiramos e capacitamos mulheres a alcançar seus objetivos profissionais e pessoais."
+          image: "assets/tutores/Fernando.jpg",
+          name: "Fernando Cavalcanti",
+          url: "https://www.instagram.com/fernandocavalcanti",
+          perfil: "@fernandocavalcanti",
+          aula: "Aula Marketing Digital",
+          description: "Especialista em marketing digital com mais de 10 anos de experiência, Fernando é fundador da Cavalcanti/Digital, onde lidera projetos de social marketing baseados em dados e criatividade. Com pós-graduação em Inovação e Estratégia pela ESPM-SP, já assinou campanhas de impacto para marcas como Microsoft, Warner Bros, Santander e BASF. É reconhecido pelo mercado pelos estudos de caso sobre Grow, Atento e Macbeth, combinando narrativa, design e dados para gerar resultados expressivos, além de ser educador digital para colaboradores de grandes marcas, como Coty, Wella Professionals etc."
         },
         {
-          image: "assets/creators-1.jpg",
-          name: "Bruno e Hellen",
-          url: "https://www.instagram.com/midtrack.co",
-          perfil: "- @midtrack.co",
-          aula: "Aula Edição Ninja",
-          description: "A Midtrack produz conteúdo audiovisual e campanhas personalizadas há 10 anos, conectando marcas ao público com alta performance e identidade única. Com mais de 50 mil criadores e filmmakers, nossa comunidade cresce e aprende junta. Além de filmes e campanhas, oferecemos treinamentos para empresas e profissionais que querem explorar o futuro da criação de conteúdo."
-        },
-        {
-          image: "assets/creators-3.jpg",
-          name: "Leticia Imai",
+          image: "assets/tutores/Letícia.jpg",
+          name: "Letícia Imai",
           url: "https://www.instagram.com/leticia.imai",
-          perfil: "- @leticia.imai",
-          aula: "Aula Inspiração & Criatividade",
-          description: "Criadora de conteúdo e empreendedora digital. Inspira  uma comunidade com +125mil membros que querem desenvolver seus processos criativos, postar com frequência nas redes sociais e monetizar seus projetos autorais."
+          perfil: "@leticia.imai",
+          aula: "Aula Criatividade & Comunicação Digital",
+          description: "Criadora de conteúdo, educadora e autora, Letícia é uma grande voz sobre criatividade e comunicação digital. Formada em Publicidade e Marketing pela ESPM-SP, publicou o livro 'Confia, Cria & Posta' e já ensinou mais de 5 mil alunos com seu método autoral. Criadora de um ecossistema educacional com foco em redes sociais, criatividade e negócios digitais, já palestrou para empresas como Google, Meta, Itaú, Adobe e Amazon. Também é professora da Domestika e dá treinamentos in company para marcas como MAC, Natura, Avon, Riot Games e Suvinil."
         },
         {
-          image: "assets/creators-4.jpg",
-          name: "Ju Santos",
-          url: "https://www.instagram.com/@jusantoscs",
-          perfil: "- @jusantoscs",
-          aula: "Aula Engajamento e Conversão",
-          description: "Juh Santos é especialista em criar Stories que engajam no Instagram. Ela ensina como transformar seu perfil e ganhar dinheiro com conteúdos atrativos e envolventes. Aprenda com Juh e leve suas habilidades no Instagram a um novo nível, garantindo mais engajamento e oportunidades de monetização."
+          image: "assets/tutores/Brenda.jpg",
+          name: "Brenda Cruz",
+          url: "https://www.instagram.com/brecruzzz",
+          perfil: "@brecruzzz",
+          aula: "Aula Estratégia de Influência",
+          description: "Cria da Sussuarana, periferia de Salvador, Brenda é comunicóloga e estrategista de influência, com quase 7 anos de atuação em marketing, comunicação institucional, audiovisual, conteúdo e eventos. Hoje, integra a WPP com foco em projetos para The Coca-Cola Company. Expert em estratégia de conteúdo e influência, seu trabalho é guiado pela intersecção entre criatividade, dados e cultura – o que chama de abordagem 'human-culture-data-driven'. Tem o Nordeste como base criativa e política de atuação, sendo referência na abertura de novos caminhos no mercado da influência."
         },
+        {
+          image: "assets/tutores/Alessandra.jpg",
+          name: "Alessandra Miranda",
+          url: "https://www.instagram.com/alesmiranda_",
+          perfil: "@alesmiranda_",
+          aula: "Aula Creator Economy",
+          description: "Head de Estratégia da YouPix, uma das maiores autoridades em influência e creator economy no Brasil, Alessandra tem mais de 10 anos de experiência em comunicação digital. Já liderou projetos estratégicos para marcas como Meta, Netflix, Google, Heinz, Nubank e TikTok. Especialista em cultura digital, branding e influência, atua na interseção entre marcas e criadores, desenvolvendo estratégias que colocam pessoas no centro da comunicação. É referência quando o assunto é como marcas podem construir relevância e comunidade na internet."
+        },
+        {
+          image: "assets/tutores/BrunoHellen.jpg",
+          name: "Bruno e Hellen (Midtrack)",
+          url: "https://www.instagram.com/midtrack.co",
+          perfil: "@midtrack.co",
+          aula: "Aula Produção Audiovisual",
+          description: "Fundadores da Midtrack, Bruno e Hellen transformaram a própria vida ao decidirem viver do audiovisual e, hoje, são referência em produção criativa e educação para criadores. Com mais de 500 marcas no portfólio, assinam projetos que vão de lançamentos multimilionários a documentários e campanhas. Hoje, dedicam-se a capacitar novos criadores com técnicas, estratégias e visão de futuro, sempre com foco em impacto real e autenticidade."
+        },
+        {
+          image: "assets/tutores/Peçanha.jpg",
+          name: "Vitor Peçanha",
+          url: "https://www.instagram.com/pecanha",
+          perfil: "@pecanha",
+          aula: "Aula Marketing de Conteúdo",
+          description: "Cofundador da Rock Content, maior empresa de marketing de conteúdo da América Latina, Vitor é referência global em marketing digital, educação e empreendedorismo. Reconhecido pela Forbes Under 30 e pela lista 100 Startups to Watch, tem mais de 15 anos de experiência impulsionando marcas através de estratégias de conteúdo escaláveis e focadas em performance. É mentor de startups, autor do livro 'Obrigado pelo Marketing' e um dos grandes nomes quando o assunto é inbound, branding e geração de autoridade no ambiente digital."
+        },
+        {
+          image: "assets/tutores/RafaelRez.jpg",
+          name: "Rafael Rez",
+          url: "https://www.instagram.com/rafael.rez",
+          perfil: "@rafael.rez",
+          aula: "Aula Marketing Estratégico",
+          description: "Especialista em marketing estratégico, branding e funil de vendas, Rafael Rez é fundador da Web Estratégica e autor do best-seller Marketing de Conteúdo: A Moeda do Século XXI, uma das obras mais influentes sobre o tema no Brasil. Com mais de 20 anos de carreira, já capacitou milhares de profissionais e liderou projetos para empresas como Oracle, Sebrae, UOL, Cielo e várias startups. É uma das vozes mais respeitadas do marketing no país, com forte atuação como palestrante e professor em programas executivos."
+        },
+        {
+          image: "assets/tutores/Passa.jpg",
+          name: "Ana Paula Passarelli",
+          url: "https://www.instagram.com/passa",
+          perfil: "@passa",
+          aula: "Aula Creator Economy Avançada",
+          description: "Especialista em Creator Economy, Ana Paula Passarelli — também conhecida como Passa — é referência no mercado de influência, com mais de 15 anos de experiência em marketing digital. Cofundadora da Brunch, empresa pioneira em soluções de creator marketing no Brasil e da Toast, já liderou estratégias de influência para grandes marcas. É também palestrante, podcaster e criadora de conteúdo, sendo reconhecida por sua abordagem estratégica, direta e provocadora sobre o universo da influência. Com uma trajetória que combina visão de negócios, paixão por creators e profundo entendimento de cultura digital, Passa é um dos principais nomes quando o assunto é transformar influência em valor real."
+        }
       ],
       formData: {
         name: "",

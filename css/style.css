@@ -390,6 +390,7 @@ section .arrow {
 
 .carousel-cell img {
   border-radius: 20px;
+  max-height: 337px;
   width: 335px;
   object-fit: cover;
 }
@@ -401,6 +402,8 @@ section .arrow {
     margin: 30px 30px 0;
     font-family: 'Trenda thin', sans-serif;
     -webkit-text-stroke: thin;
+    max-height: 400px;
+    overflow-y: scroll;
 }
 
 .spacement-desc p{
