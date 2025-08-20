@@ -10,7 +10,7 @@ createApp({
         { title: 'Qual pessoa pode participar desse programa?',
           content: 'Não! Apenas funcionários da L’oreal Grande Público.' },
         { title: 'As aulas e as atividades extras aconteceram fora do horário de trabalho?',
-          content: 'Não, todos o conteúdo e qualquer ação necessária, será realizada dentro do horário habitual de trabalho.' },
+          content: 'Não, todo o conteúdo e qualquer ação necessária, será realizada dentro do horário habitual de trabalho.' },
         { title: 'Promotores contratados por agência podem participar?',
           content: 'Não. O programa é para quem já é contratado L’Oreal ' },
         { title: 'Como faço para me inscrever?',
