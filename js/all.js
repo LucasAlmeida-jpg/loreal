@@ -69,7 +69,7 @@ createApp({
           name: "Laryssa Santos",
           url: "https://www.instagram.com/mulheresceo",
           perfil: "- @mulheresceo",
-          aula: "Aula Criação de Conteúdo",
+          aula: "Criação de conteúdo longo prazo",
           description: "Mulheres CEO é uma plataforma dedicada a apoiar e conectar mulheres em posições de liderança. Com uma comunidade vibrante e em crescimento, oferecemos recursos, networking e oportunidades de desenvolvimento para mulheres que estão moldando o futuro dos negócios. Nossa missão é empoderar líderes femininas, promovendo a diversidade e a inclusão no ambiente corporativo. Através de eventos, mentorias e conteúdos exclusivos, inspiramos e capacitamos mulheres a alcançar seus objetivos profissionais e pessoais."
         },
         {
@@ -77,7 +77,7 @@ createApp({
           name: "Bruno e Hellen",
           url: "https://www.instagram.com/midtrack.co",
           perfil: "- @midtrack.co",
-          aula: "Aula Edição Ninja",
+          aula: "Edição",
           description: "A Midtrack produz conteúdo audiovisual e campanhas personalizadas há 10 anos, conectando marcas ao público com alta performance e identidade única. Com mais de 50 mil criadores e filmmakers, nossa comunidade cresce e aprende junta. Além de filmes e campanhas, oferecemos treinamentos para empresas e profissionais que querem explorar o futuro da criação de conteúdo."
         },
         {
@@ -85,16 +85,16 @@ createApp({
           name: "Leticia Imai",
           url: "https://www.instagram.com/leticia.imai",
           perfil: "- @leticia.imai",
-          aula: "Aula Inspiração & Criatividade",
+          aula: "Inspiração e tendências",
           description: "Criadora de conteúdo e empreendedora digital. Inspira  uma comunidade com +125mil membros que querem desenvolver seus processos criativos, postar com frequência nas redes sociais e monetizar seus projetos autorais."
         },
         {
-          image: "assets/creators-4.jpg",
-          name: "Ju Santos",
-          url: "https://www.instagram.com/@jusantoscs",
-          perfil: "- @jusantoscs",
-          aula: "Aula Engajamento e Conversão",
-          description: "Juh Santos é especialista em criar Stories que engajam no Instagram. Ela ensina como transformar seu perfil e ganhar dinheiro com conteúdos atrativos e envolventes. Aprenda com Juh e leve suas habilidades no Instagram a um novo nível, garantindo mais engajamento e oportunidades de monetização."
+          image: "assets/tutores/Fernando.jpg",
+          name: "Fernando Cavalcanti",
+          url: "https://www.instagram.com/@fernandocavalcanti",
+          perfil: "- @fernandocavalcanti",
+          aula: "Introdução ao mercado",
+          description: "Especialista em marketing digital com mais de 10 anos de experiência, Fernando é fundador da Cavalcanti/Digital, onde lidera projetos de social marketing baseados em dados e criatividade. Com pós-graduação em Inovação e Estratégia pela ESPM-SP, já assinou campanhas de impacto para marcas como Microsoft, Warner Bros, Santander e BASF. É reconhecido pelo mercado pelos estudos de caso sobre Grow, Atento e Macbeth, combinando narrativa, design e dados para gerar resultados expressivos, além de ser educador digital para colaboradores de grandes marcas, como Coty, Wella Professionals etc."
         },
       ],
       formData: {
