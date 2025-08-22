@@ -824,6 +824,9 @@ section .arrow {
     .creators-logo img{
       display: none;
     }
+    .img-logo{
+      display: none;
+    }
 
   .card .img-star img{
     width: 100%;
