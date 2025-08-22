@@ -131,7 +131,7 @@ body {
   }
 
   .btn {
-    background-color: #8D1E72;
+    background-color: #8D1E72 !important;
     border: none;
     color: white;
     padding: 8px 50px 8px 25px;
@@ -149,14 +149,14 @@ body {
 }
 
 .btn {
-    background-color: var(--secondary);
+    background-color: var(--secondary) !important;
     color: var(--color-white);
     border-radius: 40px;
     font-family: 'Trenda bold', sans-serif;
 }
 
 .btn-form {
-  background-color: var(--secondary);
+  background-color: var(--secondary) !important;
   color: white;
   padding: 8px 30px;
   border-radius: 45px;
@@ -171,13 +171,6 @@ body {
 strong{
   font-family: 'Trenda regular', sans-serif;
 }
-
-.btn:hover {
-    background-color: var(--terciary);
-    color: var(--color-white);
-    border-radius: 40px;
-}
-
 .navbar {
     padding-top: 10px;
     background-color: var(--color-white);
