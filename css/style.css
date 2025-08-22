@@ -48,7 +48,9 @@ body {
     overflow-x: hidden;
 
 }
-
+.img-logo{
+  width: 140px;
+}
 .email {
   font-family: 'Trenda bold', sans-serif;
 }
