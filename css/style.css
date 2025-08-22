@@ -37,10 +37,10 @@
 
 :root {
     --primary: #B28B33;
-    --secondary: #8D1E72;
+    --secondary: #2d0b24;
     --margin-per-section: 100px 0px 50px;
     --color-white: #FFFF; 
-    --terciary: #E3A535;
+    --terciary: #cea50e;
 }
 
 body {

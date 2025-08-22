@@ -15,12 +15,14 @@ createApp({
           content: 'Não. O programa é para quem já é contratado L’Oreal ' },
         { title: 'Como faço para me inscrever?',
           content: 'Faça sua inscrição de 20 a 28 de Agosto de 2025.' },
-        { title: 'Quantos pessoas serão selecionadas?',
-          content: 'Serão 15 selecionados nessa fase do programa. Boa sorte!' },
+        { title: 'Quantas pessoas serão selecionadas?',
+          content: 'Serão 30 selecionados nessa fase do programa. Boa sorte!' },
         { title: 'Quais serão os critérios de seleção?',
-          content: 'Ter um perfil ativo acima de 500 seguidores, ter publicação média de 2 conteúdos mensais, criatividade e qualidade técnica dos conteúdos.' },
-        { title: 'Quais serão os benefícios de me tornar um/a Beauty Creator?',
-          content: 'Receber reconhecimento dentro da L’oreal.<br> Ganhar autoridade e presença nas redes sociais. Receber prêmios a cada missão cumprida dentro do programa.' },
+          content: 'Ter as redes sociais abertas (tik tok e instagram) e ser promotor DPGP' },
+          { 
+            title: 'Quais serão os benefícios de me tornar um/a Beauty Creator?',
+            content: '1 - Participar do seleto grupo de 45 promotores influenciadores<br>2 - Ter 2 sábados do mês dedicados a produção de conteúdo.<br>3 - Receber ferramentas para produção de conteúdo (Ring Light + Microfone)<br>4 - Receber os produtos em casa<br>5 - Participar de gamificação com premiações durante a jornada<br>6 - Participar em eventos regionais das marcas<br>7 - Participar do projeto de maior visibilidade e impacto de Instore<br>8 - Aumentar sua rede de contatos e aprender com outros colaboradores de diversos lugares do país.<br>9 - Concorrer a possibilidade de ir para a Convenção L\'Oreal 2026.'
+          }
       ],
       items: [
         {
@@ -59,7 +61,7 @@ createApp({
       ],
       itemsMiniCard: [
         { content: "<h3>Inscrição</h3> Programa Exclusivo para funcionários da L'Oreal Grande Público - comece fazendo sua <a data-bs-toggle='modal' data-bs-target='#exampleModal'><strong>inscrição</strong></a>." },
-        { content: '<h3>Imersão</h3> De julho a novembro, mergulhe em uma série de atividades educativas, desde a estratégia de conteúdo até as técnicas de edição e iluminação.' },
+        { content: '<h3>Imersão</h3> De Setembro a Dezembro, mergulhe em uma série de atividades educativas, desde a estratégia de conteúdo até as técnicas de edição e iluminação.' },
         { content: '<h3>Desafios<br> de Criação</h3> Aplique o aprendizado em desafios práticos, criando conteúdos que serão avaliados por critérios de criatividade e engajamento.' },
         { content: '<h3>Black Friday</h3> Use suas novas habilidades para maximizar as vendas e o engajamento durante a Black Friday e prepare-se para uma avaliação final em dezembro.' },
       ],
