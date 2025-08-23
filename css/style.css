@@ -818,7 +818,7 @@ section .arrow {
       display: none;
     }
     .img-logo{
-      display: none;
+     width: 89px;
     }
 
   .card .img-star img{
